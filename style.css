@@ -1,0 +1,103 @@
+* {box-sizing:border-box;padding:0;margin:0}
+body {background-color:rgb(58,58,58)}
+.container {
+  width: 100%;
+  position: relative;
+}
+.container img {
+  width: 100%;
+  display: flex;
+}
+.container div {
+  top: 50%;
+  left: 50%;
+  display: block;
+  cursor: pointer;
+  color: greenyellow;
+  font-size: 4.5rem;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.main {
+  margin: auto;
+  width: 100%;
+}
+.main .content {
+  width: 100%;
+  padding: 5px 15px 15px ;
+  display: flex;
+  margin-top: 70px;
+  background-color: #000;
+  justify-content: space-between;
+}
+.main .content img {
+  width: 100%;
+  margin: 9px 5px;
+  max-width: 100px;
+}
+.main .content .text-content {
+  width: 90%;
+  margin-left: 8px;
+}
+.main .content .text-content span {
+  color: #999;
+  font-size: 12px;
+  padding-top: 2px;
+  padding-left: 2px;
+}
+.main .content .text-content span.strong {
+  background: #eee;
+}
+.main .content .text-content h2 {
+  width: 100%;
+  color: #fff;
+  font-weight: 100;
+}
+.main .content .text-content h2 span {
+  font-size: 14px;
+  color: #999;
+}
+.main .content .text-content span.strong {
+  background: #444;
+  padding: 5px 10px 8px 10px;
+  font-size: 15px;
+  display: block;
+  margin-top: 9px;
+}
+.main .content .text-content .stars {
+  margin-bottom: 3px;
+  margin-top: 7px;
+  font-size: 14px;
+  color: gold;
+}
+.main .btn-content {
+  justify-content: center;
+  display: flex;
+  margin: 20px auto 30px auto;
+  width: 80%;
+}
+.main button {
+  border: 1px solid #777777;
+  background: transparent;
+  border-radius: 3px;
+  padding: 5px 10px 8px 10px;
+  color: #eee;
+  margin: 2px 5px;
+  transition: all .4s ease;
+  outline: none;
+  cursor: pointer;
+}
+.main button:hover {
+  background: #eee;
+  color: #000;
+}
+.footer {
+  width: 100%;
+  background: #000;
+  color: #999;
+  font-weight: 100;
+}
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Godzilla vs Kong พากย์ไทย 2021</title>
+    <script src="https://kingslimes.github.io/fontawesome/pro.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    <link rel="icon" href="./icon.jpeg" type="image/jpeg" />
+</head>
+<body>
+  <div class="container">
+   <img src="./GodvsKong9_0.jpg" alt="GodVsKong" />
+   <div class="fad fa-play" onclick="overlink('./play/godzilla_vs_kong.html')"></div>
+  </div>
+  <div class="main">
+    <div class="btn-content">
+      <button data-link="./play/godzilla_vs_kong.html">ดูตอนนี้ <i class="fad fa-film"></i></button>
+      <button data-link="https://drive.google.com/uc?export=download&id=16yh7wC8GJlo4f-HhJH6492CS2xMMB7Ho">ดาวน์โหลด <i class="fas fa-download"></i></button>
+    </div>
+    <div class="content">
+      <img src="./poster.jpeg" alt="poster" />
+      <div class="text-content">
+        <h2>ก็อดซิลล่า ปะทะ คิงคอง <span>2021</span></h2>
+        <div class="stars">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fal fa-star"></i>
+        </div>
+        <span>8.7/10 จากผู้ใช้ 2042 คน</span><br \>
+        <span>เวลา : 113 นาที</span>
+        <span class="strong">ออกฉาย: 2021-03-24</span>
+      </div>
+    </div>
+  </div>
+<script>
+let btn = document.querySelectorAll("button");
+for (let i=0; i<btn.length; i++) {
+  btn[i].addEventListener("click", ()=> {
+    window.location = btn[i].getAttribute("data-link");
+  })
+}
+function overlink(e) {
+  window.location = e;
+}
+</script>
+</body>
+</html>
