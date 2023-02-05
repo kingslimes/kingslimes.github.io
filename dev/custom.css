@@ -1,0 +1,56 @@
+.background {
+    height: 0;
+    padding-top: 45%
+}
+
+.avatar {
+    width: 155px;
+    height: 155px;
+    margin-top: -8rem;
+    border: 5px solid white
+}
+
+.views {
+    padding-top: 5px
+}
+
+.icon-facebook::before {
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+    content: "\f09a";
+    padding-right: 5px
+}
+
+.content {
+    border-radius: 5px
+}
+
+.card-img {
+    transition: transform 300ms
+}
+
+.card-title {
+    width: 100%;
+    bottom: 0;
+    background: linear-gradient(to top, #000, transparent)
+}
+
+.card-type {
+    top: .7rem;
+    left: .6rem;
+    border-radius: 10px
+}
+
+.card-chapter {
+    top: 2.6rem;
+    left: .6rem;
+    border-radius: 10px
+}
+
+.radius-1 {
+    border-radius: 10px
+}
+
+.card .container:hover img {
+    transform: scale(1.1)
+}
