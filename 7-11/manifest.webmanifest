@@ -1,0 +1,11 @@
+{
+    "name": "7-Eleven QR",
+    "icons": [
+        {
+            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/7-eleven_logo.svg/2110px-7-eleven_logo.svg.png",
+            "type": "image/png",
+            "sizes": "any"
+        }
+    ],
+    "display": "fullscreen"
+}
